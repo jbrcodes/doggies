@@ -1,0 +1,31 @@
+.Nav {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 2em 0;
+}
+
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.Nav li {
+    display: inline-block;
+    color: black;
+    margin: 0 10px;
+}
+
+.Nav li:hover {
+    background-color: #ccc;
+}
+
+.Nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.Nav a.selected {
+    background-color: #666;
+    color: #ddd;
+}

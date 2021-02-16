@@ -1,0 +1,12 @@
+.DogList .grid {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.DogList img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
